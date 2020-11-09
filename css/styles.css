@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brandicon {
+    height: 100px;
+    border-radius: 50px;
+}
+
+.menuitems {
+    color: #CE8C73 !important;
+    font-family:'Courier New', Courier, monospace !important;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("../images/received_485183068709472.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .75;
+}
+
+.introtext {
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.title {
+    font-size: 54px;
+    font-family: comic;
+    text-align: center;
+    color: white;
+}
+
+.title2 {
+    font-size: 42px;
+    padding: 20px;
+}
+
+.intro {
+    height: auto;
+    background-color: #D1A088;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 30px;
+}
+
+.footer {
+    background-color: #FBE2CC;
+    height: 60px;
+    border-top: 4px solid #CE8C73;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.footertext {
+    text-decoration: none;
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+}
+
+.profilepic {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.bigprofilepic {
+    padding: 40px;
+}
+
+.picalign {
+    align-items: center !important;
+}
+
+hr {
+    background-color: #FBE2CC;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h6 {
+  color: #FBE2CC;
+  font-style: italic;
+  font-family: comic;
+  font-size: 18pt;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    /* Start here */
+    .title{
+        font-size: 82px;
+    }
+
+    .bg {
+        background-image: url("../images/received_485183068709472.jpg");
+        height: 75%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: .75;
+    }
+    
+    .introtext {
+        padding: 200px;
+        color: white;
+    }
+
+    .partext {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .profilepic {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .test {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    .aboutmetext {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 35px;
+    }
+    
+    .desktop {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    h6 {
+        margin-left: 100px;
+    }
+}
+
+
+
