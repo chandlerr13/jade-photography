@@ -11,4 +11,4 @@ HTML and CSS. This project focuses on demonstrating the following key principles
 * responsive design -- ensuring the site works as well on mobile as on
   desktops; mobile-first designs for mobile, then expands to desktop
 
-URL: lab1.chandlerrogers.me
+Full website [here](lab1.chandlerrogers.me)
